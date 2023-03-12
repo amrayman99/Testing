@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-11T21:55:35Z" name="TownTeam" finished-at="2023-03-11T21:57:00Z" duration-ms="85114">
+    <groups>
+    </groups>
+    <test started-at="2023-03-11T21:55:35Z" name="Android" finished-at="2023-03-11T21:57:00Z" duration-ms="85114">
+      <class name="com.town.testcases.AddToCartTests">
+        <test-method is-config="true" signature="beforeclass(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.town.testcases.AddToCartTests@742ff096]" started-at="2023-03-11T21:55:35Z" name="beforeclass" finished-at="2023-03-11T21:55:47Z" duration-ms="11959" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AMR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="add_item_to_cart()[pri:16, instance:com.town.testcases.AddToCartTests@742ff096]" started-at="2023-03-11T21:55:47Z" name="add_item_to_cart" finished-at="2023-03-11T21:56:03Z" duration-ms="15978" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_item_to_cart -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.town.testcases.AddToCartTests@742ff096]" started-at="2023-03-11T21:56:03Z" name="teardown" finished-at="2023-03-11T21:56:03Z" duration-ms="515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="beforeclass(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.town.testcases.AddToCartTests@742ff096]" started-at="2023-03-11T21:56:03Z" name="beforeclass" finished-at="2023-03-11T21:56:15Z" duration-ms="12030" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AMR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="delete_item_from_cart()[pri:17, instance:com.town.testcases.AddToCartTests@742ff096]" started-at="2023-03-11T21:56:15Z" name="delete_item_from_cart" finished-at="2023-03-11T21:56:32Z" duration-ms="16711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete_item_from_cart -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.town.testcases.AddToCartTests@742ff096]" started-at="2023-03-11T21:56:32Z" name="teardown" finished-at="2023-03-11T21:56:33Z" duration-ms="606" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="beforeclass(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.town.testcases.AddToCartTests@742ff096]" started-at="2023-03-11T21:56:33Z" name="beforeclass" finished-at="2023-03-11T21:56:45Z" duration-ms="11897" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AMR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="add_out_of_stock_item_to_cart()[pri:18, instance:com.town.testcases.AddToCartTests@742ff096]" started-at="2023-03-11T21:56:45Z" name="add_out_of_stock_item_to_cart" finished-at="2023-03-11T21:56:59Z" duration-ms="14673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_out_of_stock_item_to_cart -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.town.testcases.AddToCartTests@742ff096]" started-at="2023-03-11T21:56:59Z" name="teardown" finished-at="2023-03-11T21:57:00Z" duration-ms="721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:com.town.testcases.AddToCartTests@742ff096]" started-at="2023-03-11T21:57:00Z" name="afterclass" finished-at="2023-03-11T21:57:00Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- com.town.testcases.AddToCartTests -->
+    </test> <!-- Android -->
+  </suite> <!-- TownTeam -->
+</testng-results>

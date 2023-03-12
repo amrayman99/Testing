@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TownTeam]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Android(failed)">
+    <parameter name="platformVersion" value="7.0"/>
+    <parameter name="platformName" value="Android"/>
+    <parameter name="deviceName" value="AMR"/>
+    <classes>
+      <class name="com.town.testcases.AddToCartTests">
+        <methods>
+          <include name="afterclass"/>
+          <include name="beforeclass"/>
+          <include name="teardown"/>
+          <include name="add_out_of_stock_item_to_cart"/>
+          <include name="delete_item_from_cart"/>
+          <include name="add_item_to_cart"/>
+        </methods>
+      </class> <!-- com.town.testcases.AddToCartTests -->
+      <class name="com.town.testcases.SearchTests">
+        <methods>
+          <include name="afterclass"/>
+          <include name="beforeclass"/>
+          <include name="teardown"/>
+          <include name="arabic_searching"/>
+        </methods>
+      </class> <!-- com.town.testcases.SearchTests -->
+      <class name="com.town.testcases.SignUpScreenTests">
+        <methods>
+          <include name="afterclass"/>
+          <include name="beforeclass"/>
+          <include name="teardown"/>
+          <include name="valid_data_invalid_full_name"/>
+        </methods>
+      </class> <!-- com.town.testcases.SignUpScreenTests -->
+    </classes>
+  </test> <!-- Android(failed) -->
+</suite> <!-- Failed suite [TownTeam] -->
